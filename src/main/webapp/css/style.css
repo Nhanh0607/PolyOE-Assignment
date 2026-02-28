@@ -1,0 +1,307 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap')
+	;
+
+/* =========================================
+   1. GLOBAL & RESET
+   ========================================= */
+:root {
+	--primary-color: #ff6b00; /* Cam chủ đạo */
+	--primary-gradient: linear-gradient(135deg, #ff9900 0%, #ff5e00 100%);
+	--secondary-color: #2c3e50; /* Xanh đen sang trọng */
+	--bg-color: #f0f2f5; /* Xám nhạt nền nã */
+	--card-bg: #ffffff;
+	--text-color: #333;
+	--text-muted: #777;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: var(--bg-color);
+	color: var(--text-color);
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+a {
+	text-decoration: none !important;
+	transition: 0.3s;
+}
+
+/* =========================================
+   2. HEADER (PHONG CÁCH CLASSIC HIỆN ĐẠI)
+   ========================================= */
+#custom-header {
+	background: var(--primary-gradient);
+	box-shadow: 0 4px 20px rgba(255, 107, 0, 0.3); /* Bóng cam tỏa sáng */
+	padding: 15px 0;
+	border: none;
+	border-radius: 0 0 20px 20px; /* Bo tròn góc dưới */
+}
+
+.custom-brand {
+	font-size: 1.8rem;
+	font-weight: 800;
+	color: #fff !important;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+	letter-spacing: 1px;
+}
+
+.custom-link {
+	color: #fff !important;
+	font-weight: 600;
+	font-size: 1rem;
+	margin: 0 10px;
+	padding: 8px 15px !important;
+	border-radius: 30px;
+}
+
+.custom-link:hover, .custom-link.active {
+	background-color: rgba(255, 255, 255, 0.2);
+	transform: translateY(-2px);
+}
+
+/* Dropdown Menu */
+.custom-dropdown {
+	border: none;
+	border-radius: 12px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+	overflow: hidden;
+	animation: slideUp 0.3s ease;
+}
+
+.custom-dropdown .dropdown-item {
+	padding: 12px 20px;
+	font-weight: 500;
+	color: var(--secondary-color);
+	border-bottom: 1px solid #eee;
+}
+
+.custom-dropdown .dropdown-item:hover {
+	background-color: #fff3e0;
+	color: var(--primary-color);
+	padding-left: 25px; /* Hiệu ứng trượt chữ */
+}
+
+/* =========================================
+   3. VIDEO CARD (TRÁI TIM CỦA GIAO DIỆN)
+   ========================================= */
+.video-card {
+	border: none;
+	border-radius: 15px;
+	background: var(--card-bg);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+	overflow: hidden;
+	height: 100%;
+}
+
+.video-card:hover {
+	transform: translateY(-10px); /* Nổi lên khi hover */
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-wrapper {
+	position: relative;
+	overflow: hidden;
+	height: 180px;
+}
+
+.video-card .card-img-top {
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.5s ease;
+}
+
+.video-card:hover .card-img-top {
+	transform: scale(1.1); /* Phóng to ảnh nhẹ */
+}
+
+/* Nút Play mờ ảo */
+.play-overlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0);
+	width: 60px;
+	height: 60px;
+	background: rgba(255, 107, 0, 0.9);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-size: 1.5rem;
+	transition: 0.3s;
+	box-shadow: 0 0 20px rgba(255, 107, 0, 0.6);
+}
+
+.video-card:hover .play-overlay {
+	transform: translate(-50%, -50%) scale(1);
+	/* Hiện nút play khi hover */
+}
+
+.card-body {
+	padding: 1.5rem;
+}
+
+.card-title a {
+	color: var(--secondary-color);
+	font-weight: 700;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	line-height: 1.4;
+}
+
+.card-title a:hover {
+	color: var(--primary-color);
+}
+
+/* Nút Like/Share đẹp */
+.btn-action {
+	border-radius: 50px;
+	padding: 6px 15px;
+	font-size: 0.85rem;
+	font-weight: 600;
+	transition: 0.3s;
+	border: none;
+}
+
+.btn-action-like {
+	background: #e8f5e9;
+	color: #2e7d32;
+}
+
+.btn-action-like:hover {
+	background: #2e7d32;
+	color: #fff;
+}
+
+.btn-action-unlike {
+	background: #ffebee;
+	color: #c62828;
+}
+
+.btn-action-unlike:hover {
+	background: #c62828;
+	color: #fff;
+}
+
+.btn-action-share {
+	background: #fff8e1;
+	color: #f57f17;
+}
+
+.btn-action-share:hover {
+	background: #f57f17;
+	color: #fff;
+}
+
+/* =========================================
+   4. FORMS (LOGIN, REGISTER...)
+   ========================================= */
+.card-form {
+	border: none;
+	border-radius: 20px;
+	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+
+.form-control {
+	border-radius: 10px;
+	padding: 12px 15px;
+	border: 1px solid #e0e0e0;
+	background-color: #f9f9f9;
+}
+
+.form-control:focus {
+	background-color: #fff;
+	border-color: var(--primary-color);
+	box-shadow: 0 0 0 4px rgba(255, 107, 0, 0.1);
+}
+
+.btn-primary-custom {
+	background: var(--primary-gradient);
+	border: none;
+	border-radius: 10px;
+	padding: 12px;
+	font-weight: 700;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: 0.3s;
+}
+
+.btn-primary-custom:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 5px 15px rgba(255, 107, 0, 0.4);
+	color: white;
+}
+
+/* =========================================
+   5. FOOTER
+   ========================================= */
+footer {
+	background-color: var(--secondary-color);
+	color: #b0bec5;
+	padding: 40px 0 20px;
+	margin-top: auto;
+	font-size: 0.9rem;
+}
+
+footer h5 {
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+footer a {
+	color: #b0bec5;
+}
+
+footer a:hover {
+	color: var(--primary-color);
+}
+
+.social-icons a {
+	width: 40px;
+	height: 40px;
+	background: rgba(255, 255, 255, 0.1);
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	margin-right: 10px;
+	transition: 0.3s;
+}
+
+.social-icons a:hover {
+	background: var(--primary-color);
+	color: white;
+	transform: rotate(360deg);
+}
+
+/* =========================================
+   6. ANIMATIONS
+   ========================================= */
+@keyframes slideUp {from { opacity:0;
+	transform: translateY(10px);
+}
+
+to {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+}
+.alert {
+	border-radius: 10px;
+	border: none;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}

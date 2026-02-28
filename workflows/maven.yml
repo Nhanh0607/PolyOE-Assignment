@@ -1,0 +1,31 @@
+name: Java CI with Maven and Selenium
+
+# Kịch bản này sẽ tự động chạy mỗi khi bạn đẩy code (push) lên nhánh main hoặc master
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  build:
+    # GitHub sẽ cấp cho bạn một máy chủ dùng hệ điều hành Ubuntu (Linux) mới nhất
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    - name: Set up JDK 21 (Theo phiên bản máy bạn)
+      uses: actions/setup-java@v3
+      with:
+        java-version: '21'
+        distribution: 'temurin'
+        cache: maven
+
+    - name: Cài đặt Google Chrome cho Selenium
+      uses: browser-actions/setup-chrome@v1
+      
+    - name: Build and Test dự án bằng Maven
+      # Dòng lệnh này hệt như bạn gõ trên máy tính
+      run: mvn -B test --file pom.xml

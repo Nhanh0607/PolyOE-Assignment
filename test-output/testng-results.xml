@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-28T20:39:07 ICT" name="Default suite" finished-at="2026-02-28T20:40:38 ICT" duration-ms="91159">
+    <groups>
+    </groups>
+    <test started-at="2026-02-28T20:39:07 ICT" name="Default test" finished-at="2026-02-28T20:40:38 ICT" duration-ms="91159">
+      <class name="com.poly.test.DienMayXanhLoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@f5958c9]" started-at="2026-02-28T20:39:07 ICT" name="setUp" finished-at="2026-02-28T20:39:20 ICT" duration-ms="13028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC01_ValidPhone()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@f5958c9]" started-at="2026-02-28T20:39:20 ICT" name="TC01_ValidPhone" finished-at="2026-02-28T20:39:31 ICT" duration-ms="10795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_ValidPhone -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@f5958c9]" started-at="2026-02-28T20:39:31 ICT" name="tearDown" finished-at="2026-02-28T20:39:31 ICT" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@f5958c9]" started-at="2026-02-28T20:39:31 ICT" name="setUp" finished-at="2026-02-28T20:39:39 ICT" duration-ms="7905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC02_InvalidPhone()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@f5958c9]" started-at="2026-02-28T20:39:39 ICT" name="TC02_InvalidPhone" finished-at="2026-02-28T20:39:48 ICT" duration-ms="8920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_InvalidPhone -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@f5958c9]" started-at="2026-02-28T20:39:48 ICT" name="tearDown" finished-at="2026-02-28T20:39:48 ICT" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@f5958c9]" started-at="2026-02-28T20:39:48 ICT" name="setUp" finished-at="2026-02-28T20:39:56 ICT" duration-ms="7746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC03_PhoneWithLetters()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@f5958c9]" started-at="2026-02-28T20:39:56 ICT" name="TC03_PhoneWithLetters" finished-at="2026-02-28T20:40:05 ICT" duration-ms="8499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_PhoneWithLetters -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@f5958c9]" started-at="2026-02-28T20:40:05 ICT" name="tearDown" finished-at="2026-02-28T20:40:05 ICT" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@f5958c9]" started-at="2026-02-28T20:40:05 ICT" name="setUp" finished-at="2026-02-28T20:40:13 ICT" duration-ms="7515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC04_EmptyPhone()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@f5958c9]" started-at="2026-02-28T20:40:13 ICT" name="TC04_EmptyPhone" finished-at="2026-02-28T20:40:22 ICT" duration-ms="9010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_EmptyPhone -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@f5958c9]" started-at="2026-02-28T20:40:22 ICT" name="tearDown" finished-at="2026-02-28T20:40:22 ICT" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@f5958c9]" started-at="2026-02-28T20:40:22 ICT" name="setUp" finished-at="2026-02-28T20:40:29 ICT" duration-ms="7310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC05_SpecialCharacters()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@f5958c9]" started-at="2026-02-28T20:40:29 ICT" name="TC05_SpecialCharacters" finished-at="2026-02-28T20:40:38 ICT" duration-ms="8269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_SpecialCharacters -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@f5958c9]" started-at="2026-02-28T20:40:38 ICT" name="tearDown" finished-at="2026-02-28T20:40:38 ICT" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.poly.test.DienMayXanhLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
