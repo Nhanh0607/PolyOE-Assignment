@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jan 22 00:35:04 ICT 2026</td>
+<td>Started on:</td><td>Mon Mar 02 16:31:33 ICT 2026</td>
 </tr>
-<tr><td>Total time:</td><td>15 seconds (15030 ms)</td>
+<tr><td>Total time:</td><td>91 seconds (91671 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,18 +76,38 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.poly.test.VideoDAOTest.testFindById_Found()'><b>testFindById_Found</b><br>Test class: com.poly.test.VideoDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.test.VideoDAOTest@4b0b0854</td></tr>
+<tr>
+<td title='com.poly.test.VideoDAOTest.testDelete_Video()'><b>testDelete_Video</b><br>Test class: com.poly.test.VideoDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.test.VideoDAOTest@4b0b0854</td></tr>
+<tr>
+<td title='com.poly.test.UserDAOTest.testCreate_Success()'><b>testCreate_Success</b><br>Test class: com.poly.test.UserDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.test.UserDAOTest@e056f20</td></tr>
+<tr>
+<td title='com.poly.test.DienMayXanhLoginTest.TC01_ValidPhone()'><b>TC01_ValidPhone</b><br>Test class: com.poly.test.DienMayXanhLoginTest</td>
+<td></td>
+<td>9</td>
+<td>com.poly.test.DienMayXanhLoginTest@34b7ac2f</td></tr>
+<tr>
 <td title='com.poly.test.UserDAOTest.testCreate_DuplicateId()'><b>testCreate_DuplicateId</b><br>Test class: com.poly.test.UserDAOTest</td>
-<td><div><pre>java.lang.RuntimeException: jakarta.persistence.EntityExistsException: Trùng khóa chính
+<td><div><pre>java.lang.RuntimeException: jakarta.persistence.EntityExistsException: Trùng khóa
 	at com.poly.dao.AbstractDAO.create(AbstractDAO.java:25)
-	at com.poly.test.UserDAOTest.testCreate_DuplicateId(UserDAOTest.java:100)
+	at com.poly.test.UserDAOTest.testCreate_DuplicateId(UserDAOTest.java:79)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-Caused by: jakarta.persistence.EntityExistsException: Trùng khóa chính
+Caused by: jakarta.persistence.EntityExistsException: Trùng khóa
 	at com.poly.dao.AbstractDAO.create(AbstractDAO.java:20)
 	... 32 more
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1343796587", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1343796587'><pre>java.lang.RuntimeException: jakarta.persistence.EntityExistsException: Trùng khóa chính
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace158801009", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace158801009'><pre>java.lang.RuntimeException: jakarta.persistence.EntityExistsException: Trùng khóa
 	at com.poly.dao.AbstractDAO.create(AbstractDAO.java:25)
-	at com.poly.test.UserDAOTest.testCreate_DuplicateId(UserDAOTest.java:100)
+	at com.poly.test.UserDAOTest.testCreate_DuplicateId(UserDAOTest.java:79)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -119,42 +139,137 @@ Caused by: jakarta.persistence.EntityExistsException: Trùng khóa chính
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: jakarta.persistence.EntityExistsException: Trùng khóa chính
+Caused by: jakarta.persistence.EntityExistsException: Trùng khóa
 	at com.poly.dao.AbstractDAO.create(AbstractDAO.java:20)
 	... 32 more
 </pre></div></td>
 <td>0</td>
-<td>com.poly.test.UserDAOTest@2ddc8ecb</td></tr>
+<td>com.poly.test.UserDAOTest@e056f20</td></tr>
 <tr>
-<td title='com.poly.test.CookieUtilTest.testGet_CookieNotExists()'><b>testGet_CookieNotExists</b><br>Test class: com.poly.test.CookieUtilTest</td>
-<td></td>
+<td title='com.poly.test.UserDAOTest.testCreate_Boundary_Error()'><b>testCreate_Boundary_Error</b><br>Test class: com.poly.test.UserDAOTest</td>
+<td><div><pre>java.lang.RuntimeException: jakarta.persistence.PersistenceException: Data too long
+	at com.poly.dao.AbstractDAO.create(AbstractDAO.java:25)
+	at com.poly.test.UserDAOTest.testCreate_Boundary_Error(UserDAOTest.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: jakarta.persistence.PersistenceException: Data too long
+	at com.poly.dao.AbstractDAO.create(AbstractDAO.java:20)
+	... 32 more
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace976673374", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace976673374'><pre>java.lang.RuntimeException: jakarta.persistence.PersistenceException: Data too long
+	at com.poly.dao.AbstractDAO.create(AbstractDAO.java:25)
+	at com.poly.test.UserDAOTest.testCreate_Boundary_Error(UserDAOTest.java:92)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: jakarta.persistence.PersistenceException: Data too long
+	at com.poly.dao.AbstractDAO.create(AbstractDAO.java:20)
+	... 32 more
+</pre></div></td>
 <td>0</td>
-<td>com.poly.test.CookieUtilTest@79ad8b2f</td></tr>
-<tr>
-<td title='com.poly.test.UserDAOTest.testFindById_ValidId()'><b>testFindById_ValidId</b><br>Test class: com.poly.test.UserDAOTest</td>
-<td></td>
-<td>0</td>
-<td>com.poly.test.UserDAOTest@2ddc8ecb</td></tr>
-<tr>
-<td title='com.poly.test.UserDAOTest.testCreate_Success()'><b>testCreate_Success</b><br>Test class: com.poly.test.UserDAOTest</td>
-<td></td>
-<td>0</td>
-<td>com.poly.test.UserDAOTest@2ddc8ecb</td></tr>
-<tr>
-<td title='com.poly.test.CookieUtilTest.testGet_CookieExists()'><b>testGet_CookieExists</b><br>Test class: com.poly.test.CookieUtilTest</td>
-<td></td>
-<td>0</td>
-<td>com.poly.test.CookieUtilTest@79ad8b2f</td></tr>
+<td>com.poly.test.UserDAOTest@e056f20</td></tr>
 <tr>
 <td title='com.poly.test.CookieUtilTest.testAdd_Cookie()'><b>testAdd_Cookie</b><br>Test class: com.poly.test.CookieUtilTest</td>
 <td></td>
 <td>0</td>
-<td>com.poly.test.CookieUtilTest@79ad8b2f</td></tr>
+<td>com.poly.test.CookieUtilTest@65466a6a</td></tr>
+<tr>
+<td title='com.poly.test.UserDAOTest.testFindById_ValidId()'><b>testFindById_ValidId</b><br>Test class: com.poly.test.UserDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.test.UserDAOTest@e056f20</td></tr>
+<tr>
+<td title='com.poly.test.VideoDAOTest.testUpdate_Video()'><b>testUpdate_Video</b><br>Test class: com.poly.test.VideoDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.test.VideoDAOTest@4b0b0854</td></tr>
+<tr>
+<td title='com.poly.test.CookieUtilTest.testAdd_DeleteCookie()'><b>testAdd_DeleteCookie</b><br>Test class: com.poly.test.CookieUtilTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.test.CookieUtilTest@65466a6a</td></tr>
+<tr>
+<td title='com.poly.test.UserDAOTest.testCheckLogin_Success()'><b>testCheckLogin_Success</b><br>Test class: com.poly.test.UserDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.test.UserDAOTest@e056f20</td></tr>
+<tr>
+<td title='com.poly.test.VideoDAOTest.testCreate_Video()'><b>testCreate_Video</b><br>Test class: com.poly.test.VideoDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.test.VideoDAOTest@4b0b0854</td></tr>
+<tr>
+<td title='com.poly.test.CookieUtilTest.testGet_CookieNotExists()'><b>testGet_CookieNotExists</b><br>Test class: com.poly.test.CookieUtilTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.test.CookieUtilTest@65466a6a</td></tr>
+<tr>
+<td title='com.poly.test.VideoDAOTest.testFindById_NotFound()'><b>testFindById_NotFound</b><br>Test class: com.poly.test.VideoDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.test.VideoDAOTest@4b0b0854</td></tr>
+<tr>
+<td title='com.poly.test.DienMayXanhLoginTest.TC05_SpecialCharacters()'><b>TC05_SpecialCharacters</b><br>Test class: com.poly.test.DienMayXanhLoginTest</td>
+<td></td>
+<td>8</td>
+<td>com.poly.test.DienMayXanhLoginTest@34b7ac2f</td></tr>
+<tr>
+<td title='com.poly.test.UserDAOTest.testCheckLogin_Fail()'><b>testCheckLogin_Fail</b><br>Test class: com.poly.test.UserDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.test.UserDAOTest@e056f20</td></tr>
+<tr>
+<td title='com.poly.test.DienMayXanhLoginTest.TC02_InvalidPhone()'><b>TC02_InvalidPhone</b><br>Test class: com.poly.test.DienMayXanhLoginTest</td>
+<td></td>
+<td>8</td>
+<td>com.poly.test.DienMayXanhLoginTest@34b7ac2f</td></tr>
+<tr>
+<td title='com.poly.test.DienMayXanhLoginTest.TC04_EmptyPhone()'><b>TC04_EmptyPhone</b><br>Test class: com.poly.test.DienMayXanhLoginTest</td>
+<td></td>
+<td>7</td>
+<td>com.poly.test.DienMayXanhLoginTest@34b7ac2f</td></tr>
 <tr>
 <td title='com.poly.test.UserDAOTest.testFindById_InvalidId()'><b>testFindById_InvalidId</b><br>Test class: com.poly.test.UserDAOTest</td>
 <td></td>
 <td>0</td>
-<td>com.poly.test.UserDAOTest@2ddc8ecb</td></tr>
+<td>com.poly.test.UserDAOTest@e056f20</td></tr>
+<tr>
+<td title='com.poly.test.CookieUtilTest.testGet_CookieExists()'><b>testGet_CookieExists</b><br>Test class: com.poly.test.CookieUtilTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.test.CookieUtilTest@65466a6a</td></tr>
+<tr>
+<td title='com.poly.test.DienMayXanhLoginTest.TC03_PhoneWithLetters()'><b>TC03_PhoneWithLetters</b><br>Test class: com.poly.test.DienMayXanhLoginTest</td>
+<td></td>
+<td>8</td>
+<td>com.poly.test.DienMayXanhLoginTest@34b7ac2f</td></tr>
 </table><p>
 </body>
 </html>

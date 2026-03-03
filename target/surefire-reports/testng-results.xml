@@ -1,51 +1,179 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-22T00:35:04 ICT" name="Surefire suite" finished-at="2026-01-22T00:35:19 ICT" duration-ms="15030">
+  <suite started-at="2026-03-02T16:31:33 ICT" name="Surefire suite" finished-at="2026-03-02T16:33:05 ICT" duration-ms="91671">
     <groups>
     </groups>
-    <test started-at="2026-01-22T00:35:04 ICT" name="Surefire test" finished-at="2026-01-22T00:35:19 ICT" duration-ms="15030">
-      <class name="com.poly.test.CookieUtilTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.CookieUtilTest@79ad8b2f]" started-at="2026-01-22T00:35:04 ICT" name="setUp" finished-at="2026-01-22T00:35:09 ICT" duration-ms="4850" status="PASS">
+    <test started-at="2026-03-02T16:31:33 ICT" name="Surefire test" finished-at="2026-03-02T16:33:05 ICT" duration-ms="91671">
+      <class name="com.poly.test.DienMayXanhLoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@34b7ac2f]" started-at="2026-03-02T16:31:36 ICT" name="setUp" finished-at="2026-03-02T16:31:49 ICT" duration-ms="12225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testAdd_Cookie()[pri:0, instance:com.poly.test.CookieUtilTest@79ad8b2f]" started-at="2026-01-22T00:35:09 ICT" name="testAdd_Cookie" finished-at="2026-01-22T00:35:09 ICT" duration-ms="183" status="PASS">
+        <test-method signature="TC01_ValidPhone()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@34b7ac2f]" started-at="2026-03-02T16:31:49 ICT" name="TC01_ValidPhone" finished-at="2026-03-02T16:31:58 ICT" duration-ms="9032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_ValidPhone -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@34b7ac2f]" started-at="2026-03-02T16:31:58 ICT" name="tearDown" finished-at="2026-03-02T16:31:58 ICT" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@34b7ac2f]" started-at="2026-03-02T16:31:58 ICT" name="setUp" finished-at="2026-03-02T16:32:05 ICT" duration-ms="6673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC02_InvalidPhone()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@34b7ac2f]" started-at="2026-03-02T16:32:05 ICT" name="TC02_InvalidPhone" finished-at="2026-03-02T16:32:13 ICT" duration-ms="8241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_InvalidPhone -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@34b7ac2f]" started-at="2026-03-02T16:32:13 ICT" name="tearDown" finished-at="2026-03-02T16:32:13 ICT" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@34b7ac2f]" started-at="2026-03-02T16:32:13 ICT" name="setUp" finished-at="2026-03-02T16:32:19 ICT" duration-ms="6031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC03_PhoneWithLetters()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@34b7ac2f]" started-at="2026-03-02T16:32:19 ICT" name="TC03_PhoneWithLetters" finished-at="2026-03-02T16:32:27 ICT" duration-ms="8156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_PhoneWithLetters -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@34b7ac2f]" started-at="2026-03-02T16:32:27 ICT" name="tearDown" finished-at="2026-03-02T16:32:28 ICT" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@34b7ac2f]" started-at="2026-03-02T16:32:28 ICT" name="setUp" finished-at="2026-03-02T16:32:33 ICT" duration-ms="5673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC04_EmptyPhone()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@34b7ac2f]" started-at="2026-03-02T16:32:33 ICT" name="TC04_EmptyPhone" finished-at="2026-03-02T16:32:41 ICT" duration-ms="7656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_EmptyPhone -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@34b7ac2f]" started-at="2026-03-02T16:32:41 ICT" name="tearDown" finished-at="2026-03-02T16:32:41 ICT" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@34b7ac2f]" started-at="2026-03-02T16:32:41 ICT" name="setUp" finished-at="2026-03-02T16:32:47 ICT" duration-ms="5961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC05_SpecialCharacters()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@34b7ac2f]" started-at="2026-03-02T16:32:47 ICT" name="TC05_SpecialCharacters" finished-at="2026-03-02T16:32:56 ICT" duration-ms="8333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_SpecialCharacters -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.poly.test.DienMayXanhLoginTest@34b7ac2f]" started-at="2026-03-02T16:32:56 ICT" name="tearDown" finished-at="2026-03-02T16:32:56 ICT" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.poly.test.DienMayXanhLoginTest -->
+      <class name="com.poly.test.CookieUtilTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.CookieUtilTest@65466a6a]" started-at="2026-03-02T16:31:33 ICT" name="setUp" finished-at="2026-03-02T16:31:36 ICT" duration-ms="3098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAdd_Cookie()[pri:0, instance:com.poly.test.CookieUtilTest@65466a6a]" started-at="2026-03-02T16:31:36 ICT" name="testAdd_Cookie" finished-at="2026-03-02T16:31:36 ICT" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAdd_Cookie -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.CookieUtilTest@79ad8b2f]" started-at="2026-01-22T00:35:09 ICT" name="setUp" finished-at="2026-01-22T00:35:09 ICT" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.CookieUtilTest@65466a6a]" started-at="2026-03-02T16:31:36 ICT" name="setUp" finished-at="2026-03-02T16:31:36 ICT" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testGet_CookieExists()[pri:0, instance:com.poly.test.CookieUtilTest@79ad8b2f]" started-at="2026-01-22T00:35:09 ICT" name="testGet_CookieExists" finished-at="2026-01-22T00:35:09 ICT" duration-ms="30" status="PASS">
+        <test-method signature="testAdd_DeleteCookie()[pri:0, instance:com.poly.test.CookieUtilTest@65466a6a]" started-at="2026-03-02T16:31:36 ICT" name="testAdd_DeleteCookie" finished-at="2026-03-02T16:31:36 ICT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd_DeleteCookie -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.CookieUtilTest@65466a6a]" started-at="2026-03-02T16:31:36 ICT" name="setUp" finished-at="2026-03-02T16:31:36 ICT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGet_CookieExists()[pri:0, instance:com.poly.test.CookieUtilTest@65466a6a]" started-at="2026-03-02T16:31:36 ICT" name="testGet_CookieExists" finished-at="2026-03-02T16:31:36 ICT" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGet_CookieExists -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.CookieUtilTest@79ad8b2f]" started-at="2026-01-22T00:35:09 ICT" name="setUp" finished-at="2026-01-22T00:35:09 ICT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.CookieUtilTest@65466a6a]" started-at="2026-03-02T16:31:36 ICT" name="setUp" finished-at="2026-03-02T16:31:36 ICT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testGet_CookieNotExists()[pri:0, instance:com.poly.test.CookieUtilTest@79ad8b2f]" started-at="2026-01-22T00:35:09 ICT" name="testGet_CookieNotExists" finished-at="2026-01-22T00:35:09 ICT" duration-ms="6" status="PASS">
+        <test-method signature="testGet_CookieNotExists()[pri:0, instance:com.poly.test.CookieUtilTest@65466a6a]" started-at="2026-03-02T16:31:36 ICT" name="testGet_CookieNotExists" finished-at="2026-03-02T16:31:36 ICT" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGet_CookieNotExists -->
       </class> <!-- com.poly.test.CookieUtilTest -->
-      <class name="com.poly.test.UserDAOTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.UserDAOTest@2ddc8ecb]" started-at="2026-01-22T00:35:09 ICT" name="setUp" finished-at="2026-01-22T00:35:19 ICT" duration-ms="9770" status="PASS">
+      <class name="com.poly.test.VideoDAOTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.VideoDAOTest@4b0b0854]" started-at="2026-03-02T16:33:04 ICT" name="setUp" finished-at="2026-03-02T16:33:04 ICT" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testCreate_DuplicateId()[pri:0, instance:com.poly.test.UserDAOTest@2ddc8ecb]" started-at="2026-01-22T00:35:19 ICT" name="testCreate_DuplicateId" finished-at="2026-01-22T00:35:19 ICT" duration-ms="11" status="PASS">
+        <test-method signature="testCreate_Video()[pri:0, instance:com.poly.test.VideoDAOTest@4b0b0854]" started-at="2026-03-02T16:33:04 ICT" name="testCreate_Video" finished-at="2026-03-02T16:33:04 ICT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate_Video -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.VideoDAOTest@4b0b0854]" started-at="2026-03-02T16:33:04 ICT" name="setUp" finished-at="2026-03-02T16:33:05 ICT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDelete_Video()[pri:0, instance:com.poly.test.VideoDAOTest@4b0b0854]" started-at="2026-03-02T16:33:05 ICT" name="testDelete_Video" finished-at="2026-03-02T16:33:05 ICT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete_Video -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.VideoDAOTest@4b0b0854]" started-at="2026-03-02T16:33:05 ICT" name="setUp" finished-at="2026-03-02T16:33:05 ICT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFindById_Found()[pri:0, instance:com.poly.test.VideoDAOTest@4b0b0854]" started-at="2026-03-02T16:33:05 ICT" name="testFindById_Found" finished-at="2026-03-02T16:33:05 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindById_Found -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.VideoDAOTest@4b0b0854]" started-at="2026-03-02T16:33:05 ICT" name="setUp" finished-at="2026-03-02T16:33:05 ICT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFindById_NotFound()[pri:0, instance:com.poly.test.VideoDAOTest@4b0b0854]" started-at="2026-03-02T16:33:05 ICT" name="testFindById_NotFound" finished-at="2026-03-02T16:33:05 ICT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindById_NotFound -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.VideoDAOTest@4b0b0854]" started-at="2026-03-02T16:33:05 ICT" name="setUp" finished-at="2026-03-02T16:33:05 ICT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdate_Video()[pri:0, instance:com.poly.test.VideoDAOTest@4b0b0854]" started-at="2026-03-02T16:33:05 ICT" name="testUpdate_Video" finished-at="2026-03-02T16:33:05 ICT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate_Video -->
+      </class> <!-- com.poly.test.VideoDAOTest -->
+      <class name="com.poly.test.UserDAOTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.UserDAOTest@e056f20]" started-at="2026-03-02T16:32:56 ICT" name="setUp" finished-at="2026-03-02T16:33:04 ICT" duration-ms="8517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckLogin_Fail()[pri:0, instance:com.poly.test.UserDAOTest@e056f20]" started-at="2026-03-02T16:33:04 ICT" name="testCheckLogin_Fail" finished-at="2026-03-02T16:33:04 ICT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckLogin_Fail -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.UserDAOTest@e056f20]" started-at="2026-03-02T16:33:04 ICT" name="setUp" finished-at="2026-03-02T16:33:04 ICT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckLogin_Success()[pri:0, instance:com.poly.test.UserDAOTest@e056f20]" started-at="2026-03-02T16:33:04 ICT" name="testCheckLogin_Success" finished-at="2026-03-02T16:33:04 ICT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckLogin_Success -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.UserDAOTest@e056f20]" started-at="2026-03-02T16:33:04 ICT" name="setUp" finished-at="2026-03-02T16:33:04 ICT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreate_Boundary_Error()[pri:0, instance:com.poly.test.UserDAOTest@e056f20]" started-at="2026-03-02T16:33:04 ICT" name="testCreate_Boundary_Error" finished-at="2026-03-02T16:33:04 ICT" duration-ms="5" status="PASS">
           <exception class="java.lang.RuntimeException">
             <message>
-              <![CDATA[jakarta.persistence.EntityExistsException: Trùng khóa chính]]>
+              <![CDATA[jakarta.persistence.PersistenceException: Data too long]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: jakarta.persistence.EntityExistsException: Trùng khóa chính
+              <![CDATA[java.lang.RuntimeException: jakarta.persistence.PersistenceException: Data too long
 at com.poly.dao.AbstractDAO.create(AbstractDAO.java:25)
-at com.poly.test.UserDAOTest.testCreate_DuplicateId(UserDAOTest.java:100)
+at com.poly.test.UserDAOTest.testCreate_Boundary_Error(UserDAOTest.java:92)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -77,7 +205,60 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: jakarta.persistence.EntityExistsException: Trùng khóa chính
+Caused by: jakarta.persistence.PersistenceException: Data too long
+at com.poly.dao.AbstractDAO.create(AbstractDAO.java:20)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate_Boundary_Error -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.UserDAOTest@e056f20]" started-at="2026-03-02T16:33:04 ICT" name="setUp" finished-at="2026-03-02T16:33:04 ICT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreate_DuplicateId()[pri:0, instance:com.poly.test.UserDAOTest@e056f20]" started-at="2026-03-02T16:33:04 ICT" name="testCreate_DuplicateId" finished-at="2026-03-02T16:33:04 ICT" duration-ms="4" status="PASS">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[jakarta.persistence.EntityExistsException: Trùng khóa]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: jakarta.persistence.EntityExistsException: Trùng khóa
+at com.poly.dao.AbstractDAO.create(AbstractDAO.java:25)
+at com.poly.test.UserDAOTest.testCreate_DuplicateId(UserDAOTest.java:79)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: jakarta.persistence.EntityExistsException: Trùng khóa
 at com.poly.dao.AbstractDAO.create(AbstractDAO.java:20)
 ... 32 more
 ]]>
@@ -86,27 +267,27 @@ at com.poly.dao.AbstractDAO.create(AbstractDAO.java:20)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreate_DuplicateId -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.UserDAOTest@2ddc8ecb]" started-at="2026-01-22T00:35:19 ICT" name="setUp" finished-at="2026-01-22T00:35:19 ICT" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.UserDAOTest@e056f20]" started-at="2026-03-02T16:33:04 ICT" name="setUp" finished-at="2026-03-02T16:33:04 ICT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testCreate_Success()[pri:0, instance:com.poly.test.UserDAOTest@2ddc8ecb]" started-at="2026-01-22T00:35:19 ICT" name="testCreate_Success" finished-at="2026-01-22T00:35:19 ICT" duration-ms="3" status="PASS">
+        <test-method signature="testCreate_Success()[pri:0, instance:com.poly.test.UserDAOTest@e056f20]" started-at="2026-03-02T16:33:04 ICT" name="testCreate_Success" finished-at="2026-03-02T16:33:04 ICT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreate_Success -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.UserDAOTest@2ddc8ecb]" started-at="2026-01-22T00:35:19 ICT" name="setUp" finished-at="2026-01-22T00:35:19 ICT" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.UserDAOTest@e056f20]" started-at="2026-03-02T16:33:04 ICT" name="setUp" finished-at="2026-03-02T16:33:04 ICT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFindById_InvalidId()[pri:0, instance:com.poly.test.UserDAOTest@2ddc8ecb]" started-at="2026-01-22T00:35:19 ICT" name="testFindById_InvalidId" finished-at="2026-01-22T00:35:19 ICT" duration-ms="6" status="PASS">
+        <test-method signature="testFindById_InvalidId()[pri:0, instance:com.poly.test.UserDAOTest@e056f20]" started-at="2026-03-02T16:33:04 ICT" name="testFindById_InvalidId" finished-at="2026-03-02T16:33:04 ICT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindById_InvalidId -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.UserDAOTest@2ddc8ecb]" started-at="2026-01-22T00:35:19 ICT" name="setUp" finished-at="2026-01-22T00:35:19 ICT" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.poly.test.UserDAOTest@e056f20]" started-at="2026-03-02T16:33:04 ICT" name="setUp" finished-at="2026-03-02T16:33:04 ICT" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFindById_ValidId()[pri:0, instance:com.poly.test.UserDAOTest@2ddc8ecb]" started-at="2026-01-22T00:35:19 ICT" name="testFindById_ValidId" finished-at="2026-01-22T00:35:19 ICT" duration-ms="4" status="PASS">
+        <test-method signature="testFindById_ValidId()[pri:0, instance:com.poly.test.UserDAOTest@e056f20]" started-at="2026-03-02T16:33:04 ICT" name="testFindById_ValidId" finished-at="2026-03-02T16:33:04 ICT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindById_ValidId -->

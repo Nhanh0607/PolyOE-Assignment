@@ -29,7 +29,7 @@ public class DienMayXanhLoginTest {
         options.addArguments("--incognito"); 
         options.addArguments("--disable-notifications"); 
         options.addArguments("--disable-popup-blocking"); 
-        options.addArguments("--headless=new");
+        //options.addArguments("--headless=new");
         options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
 
         driver = new ChromeDriver(options);
